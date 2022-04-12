@@ -1,5 +1,7 @@
 # Statistics
 
+HELLO!
+
 This microservice was designed to calculate statistics.
 
 You have three at your functions: adding, deleting and displaying statistics data.
