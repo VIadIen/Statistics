@@ -2,6 +2,7 @@ FROM python:3.10-alpine
 
 RUN apk add git && git clone https://github.com/VIadIen/Statistic.git Statisticsa
 WORKDIR Statisticsa
+COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 
